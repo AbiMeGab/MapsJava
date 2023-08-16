@@ -1,0 +1,28 @@
+classDiagram
+    class Main {
+        +main(args: String[]): void
+    }
+
+    class Storage {
+        -entry: String[]
+        +Storage(entry: String[])
+        +getEntry(): String[]
+    }
+
+    class Counter {
+        -datas: String[]
+        -count: Map<String, Integer>
+        +Counter(datas: String[])
+        +countData(): void
+        +getCount(): Map<String, Integer>
+    }
+
+    class Printer {
+        -count: Map<String, Integer>
+        +Printer(count: Map<String, Integer>)
+        +printCount(): void
+    }
+
+    Main --> Storage
+    Main --> Counter
+    Counter --> Printer
