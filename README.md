@@ -2,7 +2,7 @@
 
 ## Brief description
 
-#This project its divided into 4 class
+This project its divided into 4 class
 
 #Main : Will create a Storage object by command line args. 
 
@@ -11,3 +11,9 @@
 #Counter : In this class, the Storage object will be divided into a Map, this will be useful to count how much times a word is duplicated.
 
 #Printer : This final class will have a method that prints the result of the map, with the word/number counted and the total of times it appeared in the data entry.
+
+
+Example of function, probed with IntelliJ interface with arguments:
+
+
+![img.png](img.png)
