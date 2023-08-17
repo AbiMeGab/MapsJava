@@ -17,3 +17,6 @@ Example of function, probed with IntelliJ interface with arguments:
 
 
 ![img.png](img.png)
+
+
+![img_1.png](img_1.png)
