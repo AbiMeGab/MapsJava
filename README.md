@@ -20,3 +20,7 @@ Example of function, probed with IntelliJ interface with arguments:
 
 
 ![img_1.png](img_1.png)
+
+Terminal proof:
+
+![img_2.png](img_2.png)
